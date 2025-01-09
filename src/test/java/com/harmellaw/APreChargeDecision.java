@@ -12,7 +12,6 @@ public class APreChargeDecision {
     public void setup() {
     }
 
-    @Disabled("So the CI build stays green.  Remove this to get coding.")
     @Test
     public void shouldRecordAlternativeOffenceAdviceAgainstSuspects() {
         fail();
